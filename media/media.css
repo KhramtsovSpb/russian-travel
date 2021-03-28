@@ -1,0 +1,337 @@
+@media screen and (min-width: 1280px) {
+	.page {
+		min-width: 1280px;
+	}
+
+	.lead {
+		width: 75%;
+	}
+
+	.lead__title {
+		width: 75%;
+	}
+
+	.lead__subtitle {
+		width: 65%;
+	}
+
+	.intro {
+		width: 75%;
+	}
+
+	.photo-grid {
+		grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
+		gap: 16px;
+	}
+
+	.cover {
+		width: 90%;
+	}
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .page {
+		max-width: 768px;
+	}
+
+	.lead {
+		width: 100%;
+		padding: 48px 0 88px;
+	}
+
+	.lead__title {
+		margin: 0 auto;
+		font-size: 96px;
+		font-weight: 900;
+		line-height: 100px;
+	}
+
+	.lead__subtitle {
+		margin: 0 auto;
+		padding: 32px 0 56px;
+		font-size: 30px;
+		font-weight: normal;
+		line-height: 36px;
+	}
+
+	.lead__caption {
+		width: 90%;
+}
+
+	.photo-grid {
+		width: 90%;
+		gap: 16px;
+	}
+
+	.places {
+		max-width: 720px;
+	}
+
+	.place {
+		margin-bottom: 73px;
+	}
+
+	.place__title {
+		max-width: 340px;
+		font-size: 42px;
+		line-height: 46px;
+		padding-right: 28px;
+	}
+
+  .place__website {
+		width: 352px;
+		height: 46px;
+		padding-bottom: 48px;
+	}
+
+	.place__url-heading {
+		margin: 0;
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	.place__link {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.place__image {
+		max-width: 340px;
+		max-height: 340px;
+		padding-right: 28px;
+	}
+
+	.place__paragraph {
+		margin: 0;
+		padding: 0;
+		max-width: 352px;
+		font-size: 16px;
+		line-height: 26px;
+		font-weight: normal;
+	}
+
+	.cover {
+		padding: 115px 0;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+		.page {
+		max-width: 767px;
+	}
+
+		.lead__title {
+			font-size: 48px;
+			line-height: 60px;
+	}
+
+		.lead__subtitle {
+			padding: 18px 0 28px;
+			font-size: 28px;
+	}
+
+		.intro__title {
+			font-size: 52px;
+		}
+
+		.places {
+			display: flex;
+			margin: 0;
+			padding: 0;
+			flex-direction: column;
+		}
+
+		.place {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			padding: 0;
+
+		}
+		.place__title {
+			padding: 0;
+			max-width: 90%;
+			margin: 0;
+	}
+
+		.place__website {
+			flex-direction: row;
+			align-items: center;
+			justify-content: space-around;
+			margin: 0 auto;
+			padding: 0;
+		}
+
+		.place__image {
+			max-width: 425px;
+			max-height: 425px;
+			padding: 24px 0;
+		}
+
+		.cover__title {
+			width: 90%;
+			font-size: 48px;
+			line-height: 60px;
+		}
+
+		.footer {
+			flex-direction: column;
+		}
+
+		.footer__links {
+			flex-direction: column;
+		}
+
+		.footer__link {
+			margin-bottom: 32px;
+			font-size: 24px;
+			line-height: 24px;
+		}
+
+		.footer__link:last-child {
+			margin-bottom: 0;
+		}
+
+		.footer__copyright {
+			line-height: 14px;
+			margin-top: 48px;
+		}
+
+	}
+
+@media screen and (max-width: 320px) {
+
+	.page {
+		max-width: 320px;
+		margin: 18px 0;
+	}
+
+	.header__logo {
+		width: 142px;
+		height: 42px;
+	}
+
+	.header__lang-links {
+		width: 60px;
+
+	}
+
+	.header__lang-link {
+		width: 22px;
+		height: 20px;
+		font-size: 18px;
+		line-height: 20px;
+	}
+
+	.lead {
+		width: 90%;
+		padding: 48px 0 64px;
+	}
+
+	.lead__title {
+		width: 90%;
+		font-size: 37px;
+		font-weight: 900;
+		line-height: 44px;
+	}
+
+	.lead__subtitle {
+		padding: 16px 0 40px;
+		max-width: 640px;
+		font-size: 16px;
+		font-weight: normal;
+		line-height: 20px;
+	}
+
+	.intro__title {
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.photo-grid {
+		gap: 12px;
+	}
+
+	.places {
+		width: 100%;
+	}
+
+	.place {
+		align-items: flex-start;
+		margin-bottom: 50px;
+	}
+
+	.place__title {
+		width: 90%;
+		margin: 0 auto;
+		font-size: 32px;
+		line-height: 35px;
+	}
+
+	.place__website {
+		align-items: flex-start;
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		padding: 32px 0;
+
+	}
+
+	.place__url-heading {
+		margin: 0;
+		font-size: 12px;
+		line-height: 12px;
+	}
+
+	.place__link {
+		font-size: 18px;
+		line-height: 22px;
+	}
+
+	.place__image {
+		max-width: 340px;
+		max-height: 340px;
+		padding: 0;
+		margin-bottom: 32px;
+	}
+
+	.place__paragraphes {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	.place__paragraph {
+		margin: 0;
+		padding: 0;
+		max-width: 352px;
+		font-size: 16px;
+		line-height: 26px;
+	}
+
+	.place__paragraph:nth-child(1) {
+		padding-bottom: 32px;
+	}
+
+	.cover {
+		margin: 65px auto;
+		padding: 33px 0;
+		text-align: end;
+	}
+
+	.cover__title {
+		font-size: 37px;
+		line-height: 35px;
+	}
+
+	.cover__subtitle {
+	  width: 90%;
+		padding-top: 16px;
+		font-size: 15px;
+		line-height: 16px;
+	}
+
+}
