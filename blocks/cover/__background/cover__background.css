@@ -1,9 +1,0 @@
-.cover__background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-image: url(../../../images/sprint-3-images/cover-trains.jpg);
-  background-size: cover;
-  object-fit: cover;
-}
