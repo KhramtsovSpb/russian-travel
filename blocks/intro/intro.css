@@ -6,3 +6,27 @@
 	flex-direction: column;
 	justify-content: space-between;
 }
+
+@media screen and (min-width: 1440px) {
+
+  .intro {
+    width: 60%;
+  }
+
+}
+
+@media screen and (max-width: 1280px) {
+
+  .intro {
+    width: 80%;
+  }
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .intro {
+    width: 90%;
+  }
+
+}

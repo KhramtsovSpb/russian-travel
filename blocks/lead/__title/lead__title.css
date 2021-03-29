@@ -5,3 +5,50 @@
 	font-weight: 900;
 	line-height: 100px;
 }
+
+@media screen and (max-width: 1280px) {
+
+	.lead__title {
+		width: 75%;
+	}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+  .lead__title {
+    width: 90%;
+    font-size: 86px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .lead__title {
+    width: 90%;
+		margin: 0 auto;
+		font-size: 96px;
+		font-weight: 900;
+		line-height: 100px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+
+  .lead__title {
+    font-size: 48px;
+    line-height: 60px;
+}
+}
+
+@media screen and (max-width: 320px) {
+
+	.lead__title {
+		width: 90%;
+		font-size: 37px;
+		font-weight: 900;
+		line-height: 44px;
+	}
+
+}

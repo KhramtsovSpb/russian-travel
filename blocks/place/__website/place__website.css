@@ -3,7 +3,47 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-self: flex-end;
-	width: 456px;
-	height: 46px;
+
 	padding-bottom: 48px;
+}
+
+@media screen and (max-width: 1280px) {
+
+  .place__website {
+    width: calc((100% - 16px)/2);
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .place__website {
+		padding-bottom: 48px;
+	}
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .place__website {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+
+	.place__website {
+    align-self: flex-start;
+    align-items: flex-start;
+    margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		width: 90%;
+		padding: 32px 0;
+	}
+
 }
