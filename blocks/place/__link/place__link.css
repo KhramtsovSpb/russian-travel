@@ -5,6 +5,7 @@
     text-decoration: underline;
     color: #fff;
     transition: opacity 0.3s ease;
+    padding-top: 12px;
 }
 
 .place__link:hover {
@@ -18,8 +19,17 @@
     }
 }
 
+@media screen and (max-width: 767px) {
+    .place__link {
+        font-size: 18px;
+        line-height: 22px;
+        padding-top: 0;
+    }
+}
+
 @media screen and (max-width: 320px) {
     .place__link {
+        padding-top: 12px;
         font-size: 18px;
         line-height: 22px;
     }
