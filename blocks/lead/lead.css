@@ -1,5 +1,5 @@
 .lead {
-    width: 90%;
+    max-width: 90%;
     padding: 48px 0 92px;
     margin: 0 auto;
     text-align: center;
@@ -7,20 +7,15 @@
 
 @media screen and (min-width: 1280px) {
     .lead {
-        width: 75%;
+        max-width: 984px;
         padding: 56px 0 92px;
     }
 }
 
-@media screen and (max-width: 1024px) {
-    .lead {
-        width: 90%;
-    }
-}
 
 @media screen and (max-width: 768px) {
     .lead {
-        width: 100%;
+        max-width: 100%;
         padding: 48px 0 88px;
     }
 }
