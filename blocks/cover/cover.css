@@ -1,53 +1,42 @@
 .cover {
-  position: relative;
-  width: 100%;
-	display: flex;
-	flex-direction: column;
-	margin: 92px auto;
-	padding: 195px 0;
-  background-image: url(../../images/sprint-3-images/cover-trains.jpg);
-  background-size: cover;
-	box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 1;
+    margin: 92px auto;
+    padding: 195px 0;
+    box-sizing: border-box;
+    background: url(../../images/cover-trains.jpg) no-repeat center / cover;
 }
 
-/* Марина, после вашей проверки я не мог понять, что я не так сделал,
-меня смутило то, что в макете белые буквы видно через "солнце" на фоновом изображении, вот я и пытался сделать как там
-поэтому я сделал как вы написали в "пред-ревью" надеюсь, что правильно
-если нет - дайте ещё пожалуйста подсказки - я всю голову сломал над этим:)*/
-
-
-
-
-
-
-@media screen and (max-width: 1280px) {
-
-	.cover {
-		width: 90%;
-	}
+@media screen and (min-width: 1280px) {
+    .cover {
+        width: 90%;
+        max-height: 740px;
+        padding: 245px 0;
+    }
 }
 
 @media screen and (max-width: 1024px) {
-
-  .cover {
-    width: 100%;
-  }
-
+    .cover {
+        width: 100%;
+        max-height: 640px;
+    }
 }
 
 @media screen and (max-width: 768px) {
-
-	.cover {
-		padding: 115px 0;
-	}
-
+    .cover {
+        padding: 115px 0;
+        max-height: 480px;
+    }
 }
 
 @media screen and (max-width: 320px) {
-
-	.cover {
-		margin: 65px auto;
-		padding: 33px 0;
-		text-align: end;
-	}
+    .cover {
+        max-height: 200px;
+        margin: 65px auto;
+        padding: 33px 0;
+        text-align: end;
+    }
 }
